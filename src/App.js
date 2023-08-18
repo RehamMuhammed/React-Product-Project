@@ -1,20 +1,29 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 // import './App.css';
-import './components/ProductCard.css'
-import './components/ProductList.css'
-import './components/Navbar.css'
-import ProductCard from './components/ProductCard';
-import ProductList from './components/ProductList';
-import Navbar from './components/Navbar';
+import './components/ProductCard/ProductCard.css'
+import './components/ProductList/ProductList.css'
+// import './components/Navbar.css'
+import ProductCard from './components/ProductCard/ProductCard';
+import ProductList from './components/ProductList/ProductList';
+import Navbar from './components/Navbar/Navbar';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; 
+import Login from './components/Forms/LoginForm/Login'
+import  SignUp from'./components/Forms/SignUpForm/SignUp'
 
 
 function App() {
   return (
-    <div className="App">
-    <Navbar/>
-    {/* <ProductCard/> */}
-    <ProductList/>
-    </div>
+    <Router>
+    <Navbar />
+    <Routes>
+      <Route path="/" element={<ProductList />} />
+      <Route path="/login" element={<Login />} />
+      <Route path="/signup" element={<SignUp />} />
+  
+  
+      
+    </Routes>
+  </Router>
   );
 }
 

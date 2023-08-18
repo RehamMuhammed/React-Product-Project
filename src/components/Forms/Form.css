@@ -1,0 +1,53 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin-top: -4%;
+}
+
+.login-form {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #007bff;
+    border-radius: 15px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.saver button {
+    background-color: #f8f9fa;
+    color: #000;
+    border: 1px solid #007bff;
+    cursor: pointer;
+    margin-left: 23%;
+    width: 200px;
+    border-radius: 15px;
+}
+.saver button:hover{
+    background-color: #ffffff;
+    color: #007bff;
+
+}
+input{
+    width: 300px;
+    border: 1px solid #007bff;
+    border-radius: 12px;
+    height: 40px;
+    margin-left: 8%;
+}
+.input-field {
+    text-align: center; 
+    color: #000;
+}
+
+
+
+.alert{
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+}
