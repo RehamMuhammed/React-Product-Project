@@ -1,0 +1,15 @@
+
+.btn {
+    color: black;
+    padding: 5px 10px;
+    border: 1px solid #007bff;
+    cursor: pointer;
+    background-color: aliceblue;
+}
+.btn:hover{
+    color: #007bff;
+}
+.container-data{
+    padding-top: 100px;
+    padding-left: 775px;
+}

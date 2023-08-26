@@ -25,7 +25,7 @@ const ProductCard = (props) => {
           <h3 className="card-title">Title: {productData.title}</h3>
           <p className="card-text">Description: {truncateDescription(productData.description)}</p>
           <p className="card-text">Discount Percentage: {productData.discountPercentage} %</p>
-          <p className="card-title">Price: {productData.price} EGP</p>
+          <p className="card-price">{productData.price} EGP</p>
         </div>
         <button>Add to Cart</button>
       </div>

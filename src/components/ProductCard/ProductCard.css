@@ -8,15 +8,11 @@
 .card {
     width: calc(80.33% - 20px);
     margin: 10px;
-    border-radius: 20px;
+    border-radius: 10px;
     position: relative;
 }
 
 
-.card img {
-    width: 100%;
-    height: auto;
-}
 
 .equal-height {
     display: flex;
@@ -32,20 +28,22 @@
     height: 250px;
 }
 
-p{
+.card-title{
     color: #000;
 }
-.card-title{
+.card-price{
     color: #999090;
 }
 
-.card button {
+
+.card .btn{
     color: black;
     padding: 5px 10px;
     border: 1px solid #007bff;
     cursor: pointer;
+    background-color: aliceblue;
   }
  
-  .card button:hover {
+  .card .btn:hover {
     color: #007bff;
   }

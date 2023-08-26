@@ -1,4 +1,4 @@
-.login-container {
+ .login-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,19 +18,15 @@
     margin-bottom: 15px;
 }
 
-.saver button {
-    background-color: #f8f9fa;
-    color: #000;
+.btn {
+    color: black;
+    padding: 5px 10px;
     border: 1px solid #007bff;
     cursor: pointer;
-    margin-left: 23%;
-    width: 200px;
-    border-radius: 15px;
+    background-color: aliceblue;
 }
-.saver button:hover{
-    background-color: #ffffff;
+.btn:hover{
     color: #007bff;
-
 }
 input{
     width: 300px;
@@ -51,3 +47,16 @@ input{
     color: white;
     border: 1px solid red;
 }
+
+.title{
+    padding-left: 800px;
+    padding-top: 50px;
+}
+ .text{
+    padding-top: 50px;
+    padding-left: 550px;
+ }
+ .text2{
+    padding-top: 50px;
+    padding-left: 800px;
+ }
