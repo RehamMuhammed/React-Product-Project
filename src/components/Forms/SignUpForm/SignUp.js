@@ -16,7 +16,7 @@ const SignUp = () => {
     validationSchema: Yup.object({
       username: Yup.string().required('Username is required'),
       email: Yup.string().required('Email is required').email('Invalid email address'),
-      password: Yup.string().required('Password is required').min(10, 'Minimum 10 characters'),
+      password: Yup.string().required('Password is required').min(8, 'Must be 8 characters'),
     }),
     onSubmit: (values) => {
       localStorage.setItem('registrationData', JSON.stringify(values));
